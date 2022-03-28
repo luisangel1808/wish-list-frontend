@@ -1,0 +1,71 @@
+/* spacing */
+
+table {
+    table-layout: fixed;
+    width: 80vw;
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+  }
+  
+  thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(3) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(4) {
+    width: 20%;
+  }
+  thead th:nth-child(5) {
+    width: 20%;
+  }
+  
+  th, td {
+    padding: 20px;
+    border: 1px dotted black;
+  }
+
+  thead th, tfoot th {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  
+  th {
+    letter-spacing: 2px;
+  }
+  
+  td {
+    letter-spacing: 1px;
+  }
+  
+  tbody td {
+    text-align: center;
+  }
+  
+  tfoot th {
+    text-align: right;
+  }
+
+  thead, tfoot {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+  }
+  
+  thead th, tfoot th, tfoot td {
+    background: linear-gradient(to bottom, rgba(211, 80, 80, 0.897), rgba(21, 120, 145, 0.856));
+    
+  }
+  
+  td button{
+    background-color: rgb(207, 7, 7);
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    cursor: pointer;
+  }
